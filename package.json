@@ -1,0 +1,15 @@
+{
+  "name": "mood-music-telugu",
+  "version": "1.0.0",
+  "description": "Mood Music Telugu with live trending songs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ytsr": "^3.8.4"
+  }
+}
