@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Music Telugu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>What's your mood today?</h1>
+  <div id="moods" class="mood-bar">
+    <button data-mood="happy">😊 Happy</button>
+    <button data-mood="sad">😢 Sad</button>
+    <button data-mood="romantic">❤️ Romantic</button>
+    <button data-mood="energetic">⚡ Energetic</button>
+  </div>
+  <div id="loader" class="loader"><div class="spinner"></div>Loading...</div>
+  <div id="suggestion" class="suggestion hide">
+    <h2>Suggested song</h2>
+    <a id="suggestionLink" href="#" target="_blank" rel="noopener">
+      <img id="suggestionThumb" />
+      <div class="title" id="suggestionTitle"></div>
+    </a>
+  </div>
+  <div class="list-wrap">
+    <h2 id="listTitle">Pick a mood to see songs</h2>
+    <div id="songList" class="song-list"></div>
+  </div>
+  <footer><small>Click a thumbnail to open the song on YouTube</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
